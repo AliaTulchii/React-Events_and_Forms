@@ -1,0 +1,20 @@
+.Dropdown{
+    position:relative;
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    border: 1px solid rgb(209, 34, 78);
+    background-color: rgba(209, 34, 78, 0.395);
+}
+
+.Dropdown__menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(209, 34, 78);
+    color: white;
+}
+

@@ -1,0 +1,23 @@
+.TodoList{
+    width: 400px;
+    padding: 20px;
+    margin: 0;
+    
+    list-style: none;
+}
+
+.TodoList__item{
+    display: flex;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    background-color: rgba(240, 248, 255, 0.433);
+    border-radius: 8px;
+
+}
+
+.TodoList__button{
+    margin-left: auto;
+    padding: 16px;
+    border-radius: 100%;
+    border: 1px solid rgba(0, 221, 255, 0.559);
+}

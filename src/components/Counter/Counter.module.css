@@ -1,0 +1,30 @@
+.Counter {
+    width: 400px;
+    height: 200px;
+    padding-top: 60px;
+    border: solid 2px rgb(218, 240, 48);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 0, 0.296);
+}
+
+.Counter__value{
+    margin: 10px;
+    font-size: 28px;
+}
+
+.Counter__buttn:not(:last-child){
+margin-right: 10px;
+}
+
+.Counter__controls{
+    margin-bottom: 16px;
+}
+
+.Counter__buttn{
+    padding: 10px;
+    background-color: rgb(242, 242, 6);
+    border: none;
+    border-radius: 8px;
+}

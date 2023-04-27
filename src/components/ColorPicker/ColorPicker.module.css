@@ -1,0 +1,24 @@
+.ColorPicker{
+    width: 380px;
+    padding: 10px;
+    border: 1px solid violet;
+    text-align: center;
+}
+
+.ColorPicker__option{
+    width: 100px;
+    height: 100px;
+    margin: 16px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+
+    transition: transform 250ms linear;
+}
+
+
+
+.ColorPicker__optionActive {
+    transform: scale(1.1);
+    border: 1px solid violet;
+}
