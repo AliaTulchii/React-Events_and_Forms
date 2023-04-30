@@ -1,0 +1,6 @@
+.Todo{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(8, 209, 223);
+    background-color: rgba(8, 209, 223, 0.37);
+}

@@ -1,0 +1,37 @@
+.Form{
+    width:400px;
+    border: 1px solid greenyellow;
+    background-color: rgba(172, 255, 47, 0.397);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.Form__input{
+    display: flex;
+    flex-direction: column;
+    /* align-items: start */
+}
+.Form__inputLabel{
+    display: flex;
+    align-items: baseline;
+}
+
+.Form__inputBox{
+    width: 310px;
+    height: 30px;
+    margin-left: auto;
+    border-radius: 16px;
+    border: 1px solid greenyellow;
+    background-color: rgba(240, 248, 255, 0.564);
+}
+
+
+.Form__button{
+    width: 100px;
+    border-radius: 8px;
+    border: 1px solid greenyellow;
+    padding: 5px;
+    cursor: pointer;
+}
