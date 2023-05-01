@@ -38,9 +38,9 @@ class App extends Component {
 
       <ColorPicker options={colorPickerOptions} />
           
-      <Todo/>
+      <Todo/>      
                 
-          <Form onSubmit={this.formSubmitHandler} />
+      <Form onSubmit={this.formSubmitHandler} />
       
       </div>
       

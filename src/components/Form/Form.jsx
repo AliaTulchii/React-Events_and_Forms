@@ -124,7 +124,7 @@ class Form extends Component {
             Agree with the terms
             </label>
             
-            <button type='submit' className={css.Form__button}>Send</button>
+            <button type='submit' className={css.Form__button} disabled={!this.state.licence}>Send</button>
           </form>
         );
     }
