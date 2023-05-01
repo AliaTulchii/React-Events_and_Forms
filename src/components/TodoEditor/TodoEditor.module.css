@@ -1,0 +1,26 @@
+.TodoEditor{
+    display: flex;
+    justify-content: center;
+    align-content: baseline;
+}
+
+.TodoEditor__text{
+    width:300px;
+    margin-right: 16px;
+    border-radius: 8px;
+    background-color: rgba(240, 248, 255, 0.685);
+}
+
+
+.TodoEditor__button{
+   border-radius: 50%;
+   border:1px solid aqua;
+   background-color: rgba(240, 248, 255, 0.822);
+   cursor: pointer;
+}
+
+.TodoEditor__button:hover,
+.TodoEditor__button:focus{
+    color: white;
+    background-color: rgba(0, 255, 255, 0.701)
+}

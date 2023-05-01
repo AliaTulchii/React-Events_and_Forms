@@ -84,19 +84,20 @@ class Todo extends Component {
             <div className={css.Todo}>
             <h2>To do list</h2>
             <span>Total quantity: {this.state.todos.length}</span>
-            <span>Quantity of done: {completedTodos.length }</span>
+            <span className={css.Todo__quantity}>Quantity of done: {completedTodos.length }</span>
             <TodoEditor onSubmit={this.addTodo} />
             <TodoList
               todos={visibleTodos}
               onDeleteTodo={this.deleteTodo}
               onToggleCompleted={this.toggleCompleted}
             /> 
-            <label>
+            <label >
               Filter:
               <input
                 type='text'
                 value={this.state.filter}
-                onChange={this.changeFilter}
+              onChange={this.changeFilter}
+              className={css.Todo__filter}
               />
         </label>
 

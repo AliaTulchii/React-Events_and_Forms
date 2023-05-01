@@ -23,7 +23,7 @@ class TodoEditor extends Component {
     render() {
         return (
             <form className={css.TodoEditor} onSubmit={this.handleSubmit}>
-                <textarea value={this.state.message} onChange={this.handleChange}></textarea>
+                <textarea className={css.TodoEditor__text} value={this.state.message} onChange={this.handleChange}></textarea>
             
             <button type="submit" className={css.TodoEditor__button}>Save</button>
             </form>

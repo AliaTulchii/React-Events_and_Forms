@@ -4,3 +4,12 @@
     border: 1px solid rgb(8, 209, 223);
     background-color: rgba(8, 209, 223, 0.37);
 }
+
+.Todo__filter{
+    margin-bottom: 20px;
+    margin-left: 8px;
+}
+
+.Todo__quantity{
+    margin-bottom: 20px;
+}
