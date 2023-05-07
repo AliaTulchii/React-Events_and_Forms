@@ -36,7 +36,7 @@ class Todo extends Component {
     }))
   }
     
-      deleteTodo = (todoId) => {
+  deleteTodo = (todoId) => {
         this.setState(prevState => ({
           todos: prevState.todos.filter(todo => todo.id !== todoId),
         }))

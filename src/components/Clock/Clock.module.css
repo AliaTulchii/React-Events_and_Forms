@@ -1,0 +1,18 @@
+.Clock__box{
+    width: 400px;
+    margin-bottom: 24px;
+    border: 1px solid blueviolet;
+    background-color: rgba(0, 0, 255, 0.211);
+}
+
+.Clock__face{
+    width: 350px;
+    height: 100px;
+    margin: auto;
+    /* padding-top: 5px; */
+    font-size: 76px;
+    border: 8px solid black;
+    border-radius: 4px;
+    background-color: rgba(6, 175, 6, 0.337);
+    color: green;
+}

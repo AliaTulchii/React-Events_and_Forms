@@ -1,0 +1,15 @@
+.Tab__box{
+    width: 400px;
+    padding: 24px;
+    background-color: rgba(0, 55, 255, 0.718);
+    border: 1px solid blue;
+
+}
+
+.Tab__text{
+    margin-top: 16px;
+    padding: 4px;
+    border: none;
+    border-radius: 16px;
+    background-color: rgba(240, 248, 255, 0.496);
+}
